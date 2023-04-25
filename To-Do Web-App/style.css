@@ -1,0 +1,86 @@
+body{
+    background-color: bisque;
+  }
+  
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    color:rgb(197, 119, 51);
+    margin-left:0px;
+    padding:10px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    
+  }
+  
+  #new-item {
+    width: 70%;
+    padding: 10px;
+    font-size: 20px;
+  
+  }
+  
+  button {
+    background-color: #d1483c;
+    color: white;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    border: 1px solid rgb(159, 159, 75);
+    cursor: pointer;
+    
+  }
+  
+  .lists {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:rgb(31, 50, 192);
+    font-weight:20px;
+  }
+  
+  li {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .completed-tasks {
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 10px;
+    
+  }
+  
+  .completed-tasks h2 {
+    color: #96e462;
+  }
+  
+  .completed-tasks li {
+    text-decoration: line-through;
+    color: #154216;
+  }
+  .pending-tasks{
+    color:rgb(237, 125, 145);
+  }
+  button:hover{
+    background-color: rgb(58, 190, 227);
+  }
+  
